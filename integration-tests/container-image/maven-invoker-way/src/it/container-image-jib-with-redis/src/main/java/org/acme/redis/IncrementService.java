@@ -4,7 +4,7 @@ import io.quarkus.redis.datasource.api.RedisDataSource;
 import io.quarkus.redis.datasource.api.keys.KeyCommands;
 import io.quarkus.redis.datasource.api.string.StringCommands;
 
-import javax.inject.Singleton;
+import jakarta.inject.Singleton;
 import java.util.List;
 
 @Singleton
